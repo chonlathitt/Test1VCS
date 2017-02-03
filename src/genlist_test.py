@@ -8,4 +8,5 @@ sys.path.append(cwd)
 
 # Test the module: generate_list
 from generate_list import printIt
-printIt()
+for n in range (1,1000):
+    printIt()
